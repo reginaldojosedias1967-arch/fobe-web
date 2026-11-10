@@ -1,8 +1,7 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/../globals/init.php');
+require_once __DIR__ . '/../globals/init.php';
 
-$body = '';
-if(!isLoggedIn()) 
+if (isLoggedIn()) {
 {
 	$body = <<<EOT
 	<style type="text/css">
