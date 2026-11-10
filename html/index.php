@@ -1,4 +1,5 @@
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/../globals/init.php');
 
 $body = '';
 if(!isLoggedIn()) 
